@@ -5,17 +5,177 @@
 body {
   margin: 16px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Montserrat' sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
 }
+/* ======================== first task=================================*/
+#categories {
+  list-style: none;
+  padding: 24px 24px 24px 24px ;
+  margin: 0 auto;
+  background-color: #fff;
+  max-width: 440px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.item {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f6f6fe;;
+  
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+
+}
+
+.liElement {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+
+/*=======================second task===============================*/
 .gallery {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: row;
-  gap: calc(100% - 24px) / 3;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+.gallery_item {
+  width: calc((100% - 24px - 24px) / 3);
+  margin: 0;
+    }
+
+
+.gallery_image {
+  max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+/*=======================third task===============================*/
+#name-input {
+  height: 40px;
+  width: 360px;
+ padding: 8px 0 8px 16px;
+ font-family: "Montserrat", sans-serif;
+ font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+}
+#name-output,
+.hello {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+      font-size: 24px;
+      line-height: 1.33333;
+      letter-spacing: 0.04em;
+      color: #2e2f42;
+}
+/*=======================fourth task===============================*/
+.login-form {
+display: flex;
+flex-direction: column;
+padding: 24px;
+
+}
+.ipt {
+display: block;
+border-radius: 4px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+background-color: transparent;
+cursor: pointer;
+}
+.ipt:hover,
+.ipt:focus {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+
+}
+.lbl {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.btn {
+  background-color: #4e75ff;
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    color: #fff;
+    outline: transparent;
+    border-color: transparent;
+}
+.btn:hover,
+.change-color:hover {
+  background-color: #6c8cff;
+  border-color: transparent;
+  cursor: pointer;
+}
+/*=======================fifth task===============================*/
+.change-color {
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background-color:#4e75ff;
+    color:#fff;
+    border-color: transparent;
+    cursor: pointer;
+}
+/*=======================sixth task===============================*/
+.inputsix {
+  border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px 72px;
+    width: 150px;
+    height: 40px;
+}
+
